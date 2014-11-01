@@ -143,7 +143,7 @@ X_idler_bearing = BB624;
 
 
 
-///  
+///
 
 // OpenRail lengths  1000, 750
 
@@ -188,16 +188,16 @@ frameCX = [-bedDM/2 - frontD+10,
 			bedDM/2 + backD];
 
 //  centres lines lying in y axis
-frameCY = [-bedWM/2-rightW+10,  
+frameCY = [-bedWM/2-rightW+10,
 		   -bedWM/2- 65,   // y rail
-		   -bedWM/2 - claddingC-20,   
+		   -bedWM/2 - claddingC-20,
 		   bedWM/2 + claddingC + 20,
 		   bedWM/2 + 65,   // y rail
-           bedWM/2 + leftW-10];     
-           
+           bedWM/2 + leftW-10];
+
 //  centres lines lying in z axis
-frameCZ = [20, 
-		   zTravel + 50,   //  top of z rails	
+frameCZ = [20,
+		   zTravel + 50,   //  top of z rails
            zTravel + 65,   //  y rails
 		   zTravel + 170,   // outer corners
            zTravel + 170];  // top
@@ -219,4 +219,3 @@ for (i=[0:3])
 
 
 include <assemblies.scad>
-

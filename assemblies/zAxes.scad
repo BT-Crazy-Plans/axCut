@@ -178,9 +178,9 @@ module zAxesAssembly() {
 		
 	
 	// linear rod assemblies
-	for (x=[0,1]) 
+	for (x=[0,1], y=[-1,1])
 		mirror([x,0,0])
-		translate([(frameCY[3]), -(bedDM/2 - bedBearingOffset),40]) 
+		translate([(frameCY[3]), y*(bedDM/2 - bedBearingOffset),40])
 			zRodAssembly();
 			
 	end("zAxes");

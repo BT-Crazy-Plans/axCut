@@ -162,7 +162,7 @@ module bedAssembly() {
 		mirror([i,0,0])
 		mirror([0,j,0])
 		translate([frameCY[3],-bedDM/2+20,0])
-			bedBearingClamp(j==0);
+			bedBearingClamp(true);
 	
 	
 	*translate([0,0,20]) { 

@@ -218,4 +218,4 @@ for (i=[0:3])
 	echo("X centres: ", frameCX[i]);
 
 
-include <assemblies.scad>
+//include <assemblies.scad>

@@ -1,4 +1,4 @@
-include <config/config.scad>
+include <config.scad>
 
 xCarriagePos = -bedW/2 + (0.5+cos($t*360)/2) * bedW;
 yCarriagePos = -bedD/2 + (0.5+cos($t*360)/2) * bedD;
